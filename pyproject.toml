@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libero-scene2-wm"
+version = "0.1.0"
+description = "Reproducible Scene-2 data generation and evaluation for LIBERO world models"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "h5py==3.16.0",
+  "numpy==2.2.6",
+]
+
+[project.scripts]
+libero-scene2-collect = "libero_scene2.collect:main"
+libero-scene2-launch = "libero_scene2.launch:main"
+libero-scene2-index = "libero_scene2.build_index:main"
+libero-scene2-eval = "libero_scene2.evaluate:main"
+
+[tool.setuptools.packages.find]
+include = ["libero_scene2*"]

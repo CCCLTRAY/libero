@@ -1,0 +1,33 @@
+{
+  "protocol": "scene2_oracle_beta_burst_v1",
+  "task": "butter",
+  "task_id": 2,
+  "instruction": "pick up the butter and put it in the basket",
+  "split": "train",
+  "seed_start": 4910000,
+  "episodes": 1,
+  "shard_id": 0,
+  "image_compression": "lzf",
+  "runtime": {
+    "python": "3.10.20",
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.0",
+    "numpy": "2.2.6"
+  },
+  "path": "butter_seed4910000.hdf5",
+  "bytes": 9464570,
+  "sha256": "dd960108585cb80cd2df7394cf36bae42a369850455c7d1c315979848f124524",
+  "successes": 1,
+  "transitions": 227,
+  "episodes_metadata": [
+    {
+      "seed": 4910000,
+      "task": "butter",
+      "success": true,
+      "length": 227,
+      "noise_sigma": 0.044866752391105075,
+      "burst_schedule": [],
+      "bursts_started": 0
+    }
+  ]
+}

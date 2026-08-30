@@ -1,0 +1,47 @@
+{
+  "name": "scene2-collab-eval-250",
+  "episodes": 250,
+  "bytes": 2493229789,
+  "shards": [
+    {
+      "task": "alphabet",
+      "seed_start": 3000000,
+      "episodes": 50,
+      "successes": 50,
+      "sha256": "63337dba61d174e03c0c3f152d1417b263db8fad2f9f94a6b5bd87ad633f0ea8",
+      "file": "alphabet_test_shard000_seed3000000_n50.hdf5"
+    },
+    {
+      "task": "butter",
+      "seed_start": 3200000,
+      "episodes": 50,
+      "successes": 50,
+      "sha256": "a3f4a2dd3f7dbb66c611a184304b5045e7f405d9d5fbe2b4121f3af5f0080b9b",
+      "file": "butter_test_shard000_seed3200000_n50.hdf5"
+    },
+    {
+      "task": "milk",
+      "seed_start": 3300000,
+      "episodes": 50,
+      "successes": 47,
+      "sha256": "8d381a5c853c5e631bd8bc0e7647ff4b1518997c9aa2cfeccc476983bab9f217",
+      "file": "milk_test_shard000_seed3300000_n50.hdf5"
+    },
+    {
+      "task": "orange",
+      "seed_start": 3400000,
+      "episodes": 50,
+      "successes": 49,
+      "sha256": "4d6140b820406f963bc661e9b852e8779ce410f2c3090a835d4b907899a3870d",
+      "file": "orange_test_shard000_seed3400000_n50.hdf5"
+    },
+    {
+      "task": "tomato",
+      "seed_start": 3100000,
+      "episodes": 50,
+      "successes": 49,
+      "sha256": "74707eca760ac2faeb22beedc5e8e6ec054c10269fe31777228e9cff65771747",
+      "file": "tomato_test_shard000_seed3100000_n50.hdf5"
+    }
+  ]
+}

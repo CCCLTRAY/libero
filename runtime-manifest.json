@@ -1,0 +1,10 @@
+{
+  "python": "3.10",
+  "mujoco": "2.3.7",
+  "robosuite": "1.4.0",
+  "numpy": "2.2.6",
+  "h5py": "3.16.0",
+  "libero_repository": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "scene2_source_audit": "All Scene-2 environment, asset, and BDDL files match the data-generation runtime. The historical runtime differs only in an unused faucet asset and two lifelong-training files."
+}

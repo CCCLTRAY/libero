@@ -1,0 +1,25 @@
+name: libero-scene2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - mujoco==2.3.7
+      - robosuite==1.4.0
+      - bddl==1.0.1
+      - glfw==2.10.2
+      - PyOpenGL==3.1.10
+      - opencv-python-headless==4.13.0.92
+      - PyYAML==6.0.3
+      - scipy==1.15.3
+      - pillow==12.2.0
+      - gym==0.25.2
+      - termcolor==3.3.0
+      - cloudpickle==2.2.1
+      - easydict==1.10
+      - future==0.18.3
+      - numba==0.61.2
+      - h5py==3.16.0
+      - numpy==2.2.6
+      - -e .
