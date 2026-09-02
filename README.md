@@ -4,6 +4,8 @@ Minimal, model-agnostic infrastructure for collecting and evaluating
 recoverable-intervention trajectories in five LIBERO Living Room Scene 2
 tasks. The repository contains no model checkpoints and no training code.
 
+**[Dataset download and usage](DATA.md)** | **[Official LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)**
+
 ## What is included
 
 - A privileged closed-loop `Grasp -> PlaceIn` oracle.
@@ -90,7 +92,7 @@ python -m libero_scene2.build_index \
 ```
 
 For the full release, add cardinality checks such as
-`--expected-episodes train=32000 validation=2000 test=2000`.
+`--expected-episodes train=8000 validation=1000 test=1000`.
 
 ## Verify a machine
 
@@ -132,6 +134,11 @@ LIBERO task predicate with early stopping. See `examples/controller.py` for
 the complete adapter.
 
 ## Data release
+
+The released dataset contains 8,000 training, 1,000 validation, and 1,000
+test trajectories. See [DATA.md](DATA.md) for package names, integrity checks,
+extraction, indexing, and the replay certificate. Large files are hosted
+separately from GitHub.
 
 Large shards are distributed separately from Git. A data release should keep
 this layout unchanged:
